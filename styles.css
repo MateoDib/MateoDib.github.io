@@ -337,8 +337,17 @@ h3 {
   max-width: 520px;
 }
 
+.thesis-layout {
+  display: grid;
+  gap: 26px;
+}
+
+.thesis-layout h2 {
+  max-width: 900px;
+}
+
 .thesis-copy {
-  max-width: 690px;
+  max-width: 860px;
 }
 
 .thesis-copy p {
@@ -387,7 +396,7 @@ h3 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 18px;
 }
 
@@ -400,19 +409,29 @@ h3 {
 }
 
 .project-card {
+  display: grid;
+  grid-template-columns: minmax(160px, 230px) minmax(0, 1fr);
+  gap: 12px 28px;
   padding: 24px;
 }
 
 .card-meta {
+  grid-row: 1 / span 2;
+  align-content: start;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 8px 12px;
-  margin-bottom: 18px;
   color: var(--forest);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.78rem;
   font-weight: 750;
   text-transform: uppercase;
+}
+
+.project-card h3,
+.project-card ul {
+  grid-column: 2;
 }
 
 .institution {
@@ -616,6 +635,22 @@ li + li {
   .project-grid,
   .experience-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-meta,
+  .project-card h3,
+  .project-card ul {
+    grid-column: auto;
+  }
+
+  .card-meta {
+    grid-row: auto;
+    flex-direction: row;
+    margin-bottom: 6px;
   }
 
   .timeline-item {
