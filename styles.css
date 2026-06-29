@@ -343,14 +343,18 @@ h3 {
 .thesis-layout {
   display: grid;
   gap: 26px;
+  justify-items: center;
+  text-align: center;
 }
 
 .thesis-layout h2 {
   max-width: 900px;
+  margin-inline: auto;
 }
 
 .thesis-copy {
   max-width: 860px;
+  margin-inline: auto;
 }
 
 .thesis-copy p {
