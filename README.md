@@ -1,20 +1,9 @@
-# Matéo DIB Academic Website
+# Matéo Dib
 
-Static academic website for GitHub Pages.
+I am a PhD Candidate at Savoie Mont Blanc University, IREGE, working in environmental and behavioral economics.
+My research focuses on climate anxiety, environmental policy narratives, experimental economics, health economics, and public policy design.
 
-## Files
+This repository hosts my academic website.
+It presents my research interests, current PhD projects, selected conferences and seminars, research experience, and curriculum vitae.
 
-- `index.html`: single-page academic profile.
-- `styles.css`: responsive visual design.
-- `script.js`: mobile navigation and active section state.
-- `assets/hero-research.jpg`: generated hero image for the website.
-- `assets/favicon.svg`: simple MD favicon.
-
-## Publish with GitHub Pages
-
-1. Push this folder to a GitHub repository.
-2. In GitHub, open `Settings` > `Pages`.
-3. Set the source to the main branch and root folder.
-4. Use the published GitHub Pages URL as the personal website link in the CV.
-
-The site is intentionally general and academic, so it can be reused beyond a specific funding application.
+Website: [https://mateodib.github.io/](https://mateodib.github.io/)
