@@ -238,8 +238,8 @@ img {
 }
 
 .hero-portrait {
-  width: min(292px, 58vw);
-  margin: 0 auto 26px;
+  width: min(132px, 38vw);
+  margin: 0 auto 16px;
 }
 
 .hero-portrait img {
@@ -800,8 +800,8 @@ li + li {
   }
 
   .hero-portrait {
-    width: min(230px, 60vw);
-    margin-bottom: 22px;
+    width: min(108px, 38vw);
+    margin-bottom: 14px;
   }
 
   .hero-media {
