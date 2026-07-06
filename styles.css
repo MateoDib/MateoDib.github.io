@@ -511,6 +511,21 @@ h3 {
   max-height: 74px;
 }
 
+.portrait-figure {
+  width: min(240px, 68vw);
+  margin: 8px auto 0;
+}
+
+.portrait-figure img {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 32%;
+  box-shadow: var(--shadow);
+}
+
 .card-meta {
   grid-row: 1 / span 2;
   align-content: start;
