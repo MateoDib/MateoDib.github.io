@@ -237,6 +237,21 @@ img {
   text-align: center;
 }
 
+.hero-portrait {
+  width: min(292px, 58vw);
+  margin: 0 auto 26px;
+}
+
+.hero-portrait img {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 2px solid rgba(255, 255, 255, 0.78);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 32%;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+}
+
 h1,
 h2,
 h3,
@@ -511,21 +526,6 @@ h3 {
   max-height: 74px;
 }
 
-.portrait-figure {
-  width: min(240px, 68vw);
-  margin: 8px auto 0;
-}
-
-.portrait-figure img {
-  width: 100%;
-  aspect-ratio: 1;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center 32%;
-  box-shadow: var(--shadow);
-}
-
 .card-meta {
   grid-row: 1 / span 2;
   align-content: start;
@@ -797,6 +797,11 @@ li + li {
 
   .hero {
     min-height: 68vh;
+  }
+
+  .hero-portrait {
+    width: min(230px, 60vw);
+    margin-bottom: 22px;
   }
 
   .hero-media {
